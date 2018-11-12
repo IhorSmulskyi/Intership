@@ -20,11 +20,12 @@ class FileSource < Source
 end
 
 class TypedSource < Source
-	def getStudents
-		s1 = Student.new("Andrew Kostenko", 50)
-	    s2 = Student.new("Julia Veselkina", 60)
-	    s3 = Student.new("Maria Perechrest", 80)
-	    ary = [s1,s2,s3]
+	def getStudents   
+		listOfStudents = []
+	    listOfStudents.push(Student.new("Andrew Kostenko", 50))
+	    listOfStudents.push(Student.new("Julia Veselkina", 60))
+	    listOfStudents.push(Student.new("Maria Perechrest", 80))
+	    listOfStudents
 	end
 end
 
