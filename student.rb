@@ -5,7 +5,5 @@ class Student
 		@name = name
 		@knowledge = Knowledge.new(score)
 	end
-
-
 end
 

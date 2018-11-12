@@ -1,5 +1,5 @@
 class Knowledge
-	MAX_SCORE = 100.freeze
+	MAX_SCORE = 100
 
 	def initialize(score)
 		@score = score

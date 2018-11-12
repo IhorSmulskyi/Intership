@@ -5,8 +5,8 @@ class University
 		@students = []
 	end
 
-	def addStudent(student)
-		@students.push(student)
+	def addStudent(student=[*a])
+		@students.concat student
 	end
 end
 
